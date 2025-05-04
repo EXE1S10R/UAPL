@@ -11,8 +11,7 @@ A versatile project that counts people entering and exiting a space using two BP
 - [Parts List](#parts-list)  
 - [Wiring](#wiring)  
 - [Setup](#setup)  
-- [How It Works](#how-it-works)  
-- [License](#license)  
+- [How It Works](#how-it-works)
 
 ---
 
@@ -57,7 +56,7 @@ HC-05 RX          → D11 (Arduino TX)
 1. Assemble components on the breadboard according to the wiring diagram above.
 2. Install the device in a standard door frame for accurate detection.
 3. Open Arduino IDE and select **Arduino Uno** as the target board.
-4. Load the provided sketch from the GitHub repository in `mainCode/code` and upload it to the Arduino.
+4. Load the provided sketch from the GitHub repository in `code/mainCode` and upload it to the Arduino.
 5. Power the system via USB or external 5 V supply.
 
 ---
@@ -72,10 +71,6 @@ HC-05 RX          → D11 (Arduino TX)
 Live data can be monitored in the Arduino Serial Monitor or received by an external device via Bluetooth.
 
 ---
-
-## License
-
-This project is licensed under the **MIT License**.
 
 ```
 ```
